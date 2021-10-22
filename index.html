@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>QUESTION 7</title>
+</head>
+<body>
+    <script>
+        const randomNum = Math.ceil(Math.random() * 10);
+        document.write(randomNum);
+        const numberInputByUser = prompt('Guess the number between 1 and 10');
+        if (numberInputByUser == randomNum)
+            document.write(' Matched');
+        else
+            document.write(' Not matched, the number was ' + numberInputByUser);
+    </script>
+</body>
+</html>
